@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("./font/RedHatDisplay-VariableFont_wght.ttf");
+}
+
+body {
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  background-color: #c5ceee;
+}
+
+.ventana {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 500px;
+  background-color: tomato;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.tarjeta__imagen {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  background-image: url(./images/illustration-hero.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tarjeta_h2 {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.tarjeta_contenido {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #fefefe;
+  width: 100%;
+  height: 70%;
+  padding: 15px;
+}
+
+.tarjeta__text {
+  margin: 20px;
+  text-align: center;
+}
+
+.tarjeta__seccionbaja {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.tarjeta__text2 {
+  margin: 0;
+  padding: 0;
+}
+
+.tarjeta__boton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 50px;
+  margin: 5px;
+}
+
+.tarjeta__botonS {
+  width: 90%;
+  height: 50px;
+  background-color: #3729e0;
+  border-radius: 5%;
+  border: 0;
+  font-weight: bold;
+  color: white;
+}
+
+.tarjeta__text3 {
+  font-weight: bold;
+}
+
+.tarjeta__text4 {
+  font-weight: bold;
+  color: white;
+}

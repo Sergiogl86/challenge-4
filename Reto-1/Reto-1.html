@@ -1,21 +1,45 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Week 1 Challenge 4</title>
+    <!-- displays site properly based on user's device -->
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
   </head>
   <body>
-    <header>
-      <h1>Reto 1</h1>
-    </header>
-    <nav>
-      <a href="/index.html"> Indice Challenge 4</a>
-    </nav>
-    <footer>
-      <h1>Challenge 4 - Sergio García</h1>
-    </footer>
+    <main class="ventana">
+      <section class="tarjeta">
+        <div class="tarjeta__imagen"></div>
+        <div class="tarjeta_contenido">
+          <h2 class="tarjeta_h2">Order Summary</h2>
+          <p class="tarjeta__text">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div class="tarjeta__seccionbaja">
+            <img src="./images/icon-music.svg" alt="IconoMusica" />
+            <div>
+              <p class="tarjeta__text2">Annual Plan</p>
+              <p class="tarjeta__text2">$59.99/year</p>
+            </div>
+            <a href="/index.html" class="tarjeta__text3">Change</a>.
+          </div>
+          <div class="tarjeta__boton">
+            <button class="tarjeta__botonS">Proceed to Payment</button>
+          </div>
+          <div class="tarjeta__text4">
+            <a href="/index.html">Cancel Order</a>.
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
